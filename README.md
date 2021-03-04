@@ -2,6 +2,10 @@
 
 Folder structure:
 
+	EWAS/
+		EWAS EDA/
+			contains EWAS methylation data EDA
+
 	ppmi/
 		blood_chem_EDA/
 			contains PPMI blood chemistry EDA
