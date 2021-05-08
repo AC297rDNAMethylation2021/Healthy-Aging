@@ -1,4 +1,4 @@
-# age_predict
+# age_predict custom python package
 
 Folder structure
 
