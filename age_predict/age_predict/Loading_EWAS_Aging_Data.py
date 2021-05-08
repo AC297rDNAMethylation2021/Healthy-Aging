@@ -156,8 +156,9 @@ def splitting_and_imputing(df, input_percent=10, fraction_test=0.25, seed=2021):
 
     # ---Impute Training data---
 
-    # Drop columns with 10% or more NaNs
+    # Drop columns with input_percent or more NaNs
     df_train_imp = df_train.dropna(thresh=(100 - input_percent)*.01 * df_train.shape[0], axis=1)
+    
     # Impute NaNs in training data with training column means
     train_column_means = df_train_imp.mean()
     df_train_imp = df_train_imp.fillna(train_column_means)
@@ -165,7 +166,7 @@ def splitting_and_imputing(df, input_percent=10, fraction_test=0.25, seed=2021):
     # ---Impute Testing data---
 
     # keep only the same columns as in the imputed training data
-    df_test_imp = df_test[df_train.columns]
+    df_test_imp = df_test[df_train_imp.columns]
     # impute with the means of the training data columns
     df_test_imp = df_test_imp.fillna(train_column_means)
 
