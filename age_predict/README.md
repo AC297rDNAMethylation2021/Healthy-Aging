@@ -26,7 +26,7 @@ Folder structure
 
 		2) Type: pip install .
 
-		3) Then us as you would a standard python package
+		3) Then use as you would a standard python package
 
 				Examples:
 
