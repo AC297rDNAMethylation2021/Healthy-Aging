@@ -11,7 +11,7 @@ cpg\_to\_gene
 
 illumina_Methylation_Array_info/
 
-* Folder of information from illuminating about their array
+* Folder of information from illumina about their array
 
 top_ranked_cpgs_genes_annotated.xlsx
 
