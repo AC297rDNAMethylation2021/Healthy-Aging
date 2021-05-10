@@ -23,3 +23,6 @@ blood\_feature\_selection\_by\_partial\_least\_squares.ipynb
 
 
 
+blood\_feature\_selectio\n_by\_Shapley\_values.ipynb
+
+	▪	Feature selection by mean absolute Shapley score CV
