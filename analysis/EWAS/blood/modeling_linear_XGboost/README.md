@@ -21,5 +21,7 @@ blood\_testing\_models\_by\_sex.ipynbb
 
 	▪	Testing models on sexes separately
 
+blood\_Shapley\_analysis\_top\_100.ipynb
 
+* Computing Shapley Scores of top 100 cpgs ranked by XGboost
 
