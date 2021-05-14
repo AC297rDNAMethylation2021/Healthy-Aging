@@ -63,3 +63,7 @@ Folder structure
 
 * In the following directory: 'Healthy-Aging/analysis/EWAS/blood/feature\_selection' there is a jupiter notebook entitled "Load\_all\_data\_select\_out\_tissue\_save\_ranked\_dfs". If provided with a path to the data file "age_methylation\_v1.txt" and a tissue type, it will read in the data and select out data from just that tissue. Then, if you like,  it will impute the missing values, using our standard procedure, and then create Train and Test sets containing data from just the cpg sites we have ranked as most important. Then, these datasets are saved as pandas dataframes in the feature_selection directories. It is these dataframes that were then used by the modeling routines in the modeling directories.
 
+* The data on unhealthy individuals came from the EWAS-pre-prepared data cut called "disease\_methylation\_v1.zip" and its metadata was from the file "sample\_disease\_methylation\_v1.zip". This files is too large to place on GitHub. It can be downloaded at: https://bigd.big.ac.cn/ewas/datahub/download
+
+
+
