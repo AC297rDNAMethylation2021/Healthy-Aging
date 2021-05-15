@@ -65,5 +65,15 @@ Folder structure
 
 * The data on unhealthy individuals came from the EWAS-pre-prepared data cut called "disease\_methylation\_v1.zip" and its metadata was from the file "sample\_disease\_methylation\_v1.zip". This files is too large to place on GitHub. It can be downloaded at: https://bigd.big.ac.cn/ewas/datahub/download
 
+* Cuts of the data required for the analysis can be produced using the following scripts:
+
+alz_brain_top_56.csv and hunt_brain_top_56.csv: get_shared_healthy_unhealthy.ipynb
+
+combined_healthy_unhealthy_107_cpgs.csv: produce_combined_healthy_unhealthy.ipynb
+
+alz_brain_unhealthy_all.csv and hunt_brain_unhealthy_all.csv: read_all_unhealthy_brain_data.ipynb
+
+
+
 
 
