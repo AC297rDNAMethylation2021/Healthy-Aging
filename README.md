@@ -45,14 +45,6 @@ Folder structure
 			data_summary.xlsx
 				contains summary of data in various PPMI files
 
-	submissions/
-
-		presentations/
-			contains team presentations
-
-		AC297r Merck Statement of Work.pdf
-			team statement of work     
-
 
 
 ## NOTES ON DATA
